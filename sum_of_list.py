@@ -5,3 +5,6 @@ def sum_of_list(numbers):
 	return total
 
 print(sum_of_list([1, 2, 3]))
+
+# def sum_of_list(numbers):
+# 	return sum(numbers)
