@@ -28,12 +28,12 @@ def convert(lines):
     for line in lines:   #把lines清單裡的東西(line)一行一行叫出來
         if line == 'Allen':
             person = 'Allen'
-        continue
+            continue
         if line == 'Tom':
             person = 'Tom'
-        continue
-    if person:
-        new.append(person + ':' + line)
+            continue
+        if person:
+            new.append(person + ':' + line)
     return new
 
 #寫入檔案
